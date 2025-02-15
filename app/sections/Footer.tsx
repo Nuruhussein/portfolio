@@ -12,7 +12,7 @@ const Footer = () => {
         >
             <motion.div className="mx-auto flex w-[90%] flex-row items-center justify-between text-center text-[12px] text-[#e4ded7] sm:text-[12px] md:text-[14px] lg:max-w-[1440px] lg:text-[14px]">
                 <AnimatedBody
-                    text={"© ELODRA UI 2024"}
+                    text={"© 2024 All rights reserved."}
                     className={"m-0 p-0"}
                 />
                 <div className="flex flex-col sm:flex-row  sm:gap-1 md:gap-2">
@@ -23,7 +23,7 @@ const Footer = () => {
                         aria-label="Eldora UI Github"
                     >
                         <span className="underline underline-offset-2 hover:no-underline">
-                            <AnimatedBody text={"karthikmudunuri"} className={"m-0 p-0"} />
+                            <AnimatedBody text={"Nuru hussen"} className={"m-0 p-0"} />
                         </span>{" "}
                     </Link>
                 </div>

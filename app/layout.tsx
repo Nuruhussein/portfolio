@@ -10,20 +10,20 @@ const syne = Inter({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://www.example.com/"),
-    title: "Portfolio template - Eldora UI",
+    metadataBase: new URL("https://nuruhussen.vercel.app/"),
+    title: "Nuru HUssen",
     description:
-    "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+    "A professional portfolio showcasing projects and skills.",
     generator: "Next.js",
-    applicationName: "Portfolio template",
+    applicationName: "Nuru Portfolio",
     keywords: [
-        "Portfolio template",
-        "Eldora UI",
+       
         "React",
         "developer",
         "frontend",
         "nextjs",
         "react",
+        "Eldora UI",
         "frontend developer",
         "frontend engineer",
         "creative",
@@ -41,17 +41,17 @@ export const metadata: Metadata = {
     ],
     colorScheme: "dark",
     openGraph: {
-        title: "Portfolio template - Eldora UI",
+        title: "Nuru Hussen",
         description:
-      "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
-        url: "https://www.eldoraui.site/",
-        siteName: "www.eldoraui.site",
+      "A professional portfolio showcasing projects and skills.",
+        url: "https://nuruhussen.vercel.app/",
+        siteName: "nuruhussen.vercel.app",
         images: [
             {
-                url: "./public/metadata.jpg",
+                url: "./public/portfolio.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Portfolio template - Eldora UI",
+                alt: "portfolio",
             },
         ],
         locale: "en-US",
@@ -59,12 +59,11 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Portfolio template - Eldora UI",
-        description:
-      "Portfolio template - Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
-        creator: "@karthikmudunuri",
+        title: "Nuru hussen",
+        description: "A professional portfolio showcasing projects and skills.",
+        creator: "@nuru hussen",
         creatorId: "0000000000",
-        images: ["./public/metadata.jpg"],
+        images: ["/public/portfolio.jpg"],
     },
     robots: {
         index: true,
